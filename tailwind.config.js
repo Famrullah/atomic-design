@@ -8,5 +8,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/forms'), // import tailwind forms
+    require('@tailwindcss/typography'),
   ],
 }

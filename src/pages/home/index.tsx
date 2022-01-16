@@ -5,7 +5,7 @@ const style = {
 }
 const Home = () => {
   return (
-    <>
+    <div className="container mx-auto">
       <Text tag="h1" style={style} className="">
         Heading 1
       </Text>
@@ -24,7 +24,7 @@ const Home = () => {
       <Text tag="h6" style={style} className="">
         Heading 6
       </Text>
-    </>
+    </div>
   )
 }
 
