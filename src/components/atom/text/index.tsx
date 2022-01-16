@@ -22,7 +22,7 @@ export const Text: React.FC<IProps> = (Props) => {
       {React.createElement(
         Props.tag,
         {
-          className: `${index ? index : ''} ${Props.className}`,
+          className: `${index ? index : ''} ${Props.className} py-2`,
           style: Props.style,
         },
         Props.children

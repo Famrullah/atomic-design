@@ -13,7 +13,7 @@ export default {
 
 export const Primary: ComponentStory<typeof Text> = () => (
   <>
-    <Text tag="h1" style={{ color: '#666' }} className="">
+    <Text tag="h1" style={{ color: 'green' }} className="">
       Heading 1
     </Text>
     <Text tag="h2" style={{ color: '#666' }} className="">
