@@ -7,6 +7,8 @@ module.exports = {
     extend: {},
   },
   plugins: [
+    require('postcss-import'),
+    require('tailwindcss/nesting'),
     require('@tailwindcss/forms'), // import tailwind forms
     require('@tailwindcss/typography'),
   ],

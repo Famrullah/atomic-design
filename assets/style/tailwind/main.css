@@ -1,12 +1,7 @@
-@tailwind base;
-@tailwind utilities;
-@tailwind components;
+@import 'tailwindcss/base';
 
-@layer components {
-    .card {
-      background-color: theme('colors.white');
-      border-radius: theme('borderRadius.lg');
-      padding: theme('spacing.6');
-      box-shadow: theme('boxShadow.xl');
-    }
-}
+
+@import 'tailwindcss/components';
+@import './comp.css';
+
+@import 'tailwindcss/utilities';

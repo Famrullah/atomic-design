@@ -11,13 +11,17 @@ export default {
   component: LabelTag,
 } as ComponentMeta<typeof LabelTag>
 
-export const Label: ComponentStory<typeof LabelTag> = () => (
+export const Template: ComponentStory<typeof LabelTag> = (args) => (
   <>
     <LabelTag
+      {...args}
       className="bg-green-500 text-white my-2 rounded align-middle"
-      style={{ color: 'green' }}
     >
       Best Seller
     </LabelTag>
   </>
 )
+
+export const Primary = Template.bind({})
+
+// const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
