@@ -1,6 +1,9 @@
 import React from 'react'
 import { Text } from '../../components/atom/text'
 import { LabelTag } from '../../components/atom/label-tag'
+import { LabelTagIcon } from '../../components/molecules/labelIcon'
+import { ThumbUpIcon } from '@heroicons/react/solid'
+
 const style = {
   color: '#666',
 }
@@ -42,6 +45,10 @@ const Home = () => {
       <Text tag="h6" style={style} className="">
         Heading 6
       </Text>
+      <LabelTagIcon>
+        <ThumbUpIcon width="16px" height="16px" className="pt-0 mr-1" />
+        Best Seller
+      </LabelTagIcon>
     </div>
   )
 }
