@@ -23,6 +23,7 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
+    'no-console': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn', // <--- THIS IS THE NEW RULE
     'no-unused-vars': 'off',
