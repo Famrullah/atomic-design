@@ -1,5 +1,4 @@
 import React from 'react'
-// import { SearchIcon } from '@heroicons/react/solid'
 
 interface IProps {
   style?: any
@@ -8,7 +7,7 @@ interface IProps {
 
 export const LabelTagIcon: React.FC<IProps> = (Props) => {
   return (
-    <div className="flex">
+    <div className="flex mr-2">
       <span
         style={Props.style}
         className={`${

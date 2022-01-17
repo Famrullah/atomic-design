@@ -12,6 +12,7 @@ const label = {
 }
 
 const Home = () => {
+  console.log('tes')
   return (
     <div className="container mx-auto">
       <LabelTag
@@ -45,10 +46,16 @@ const Home = () => {
       <Text tag="h6" style={style} className="">
         Heading 6
       </Text>
-      <LabelTagIcon>
-        <ThumbUpIcon width="16px" height="16px" className="pt-0 mr-1" />
-        Best Seller
-      </LabelTagIcon>
+      <div className="flex">
+        <LabelTagIcon>
+          <ThumbUpIcon width="16px" height="16px" className="pt-0 mr-1" />
+          Best Seller
+        </LabelTagIcon>
+        <LabelTagIcon>
+          <ThumbUpIcon width="16px" height="16px" className="pt-0 mr-1" />
+          Best Seller
+        </LabelTagIcon>
+      </div>
     </div>
   )
 }
