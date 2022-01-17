@@ -12,7 +12,6 @@ const label = {
 }
 
 const Home = () => {
-  console.log('w')
   return (
     <div className="container mx-auto">
       <LabelTag
